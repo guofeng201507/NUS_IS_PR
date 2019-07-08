@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 #data = pd.read_excel('CPI.xlsx',sheet_name = "CPI")
 #data = data.drop(['City'],axis=1) 
 
-data = pd.read_excel('LoanApplicant.xlsx',sheet_name = "LoanApplicant")
+data = pd.read_excel('.\LoanApplicant.xlsx',sheet_name = "LoanApplicant")
 
 features = list(data)
 colnames = np.transpose(features)
