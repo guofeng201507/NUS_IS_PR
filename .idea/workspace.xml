@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6138a710-3d4e-4760-8653-1b18cea39e45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D3_restaurant_PCA.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/CPI.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/Custchurn.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/LDA_Generic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/LoanApplicant.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/PCA_Generic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restaurant.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/psupr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/psupr.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2 diabetes-psupr-DT-NN-SVM.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/D2 diabetes-psupr-DT-NN-SVM.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D3_restaurant_PCA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/D3_restaurant_PCA.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day3/LDA_Generic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="425">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="e#145#163#0" expanded="true" />
               </folding>
@@ -37,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day3/PCA_Generic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="99" selection-start-line="99" selection-end-line="108" selection-end-column="22" />
+            <state relative-caret-position="1183">
+              <caret line="92" column="47" lean-forward="true" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
               <folding>
                 <element signature="e#144#163#0" expanded="true" />
               </folding>
@@ -79,10 +71,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="565" />
-    <option name="y" value="280" />
-    <option name="width" value="1755" />
-    <option name="height" value="1035" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -90,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,7 +99,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,6 +138,9 @@
       <module name="psupr" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -165,6 +160,9 @@
       <module name="psupr" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -244,17 +242,18 @@
       <workItem from="1561188005316" duration="3194000" />
       <workItem from="1561793392785" duration="2621000" />
       <workItem from="1562398084515" duration="10430000" />
+      <workItem from="1562757348136" duration="3285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36516000" />
+    <option name="totallyTimeSpent" value="39801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.1380597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.13965885" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.22520107" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -268,13 +267,13 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Jupyter" order="11" sideWeight="0.4989339" weight="0.3997833" />
+      <window_info anchor="bottom" id="Jupyter" order="11" sideWeight="0.4989339" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49840087" weight="0.30985916" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.7292111" visible="true" weight="0.41928494" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.7292111" weight="0.2665222" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.82067513" visible="true" weight="0.18710022" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.82067513" visible="true" weight="0.1609808" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -335,10 +334,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/diabetes.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://D:/GDrive/NUS/Term1/PR/Day 1/D1diabetes-psupr-knn-logreg-NB.ipynb" />
     <entry file="file://$PROJECT_DIR$/D1diabetes-psupr-knn-logreg-NB.ipynb">
@@ -350,13 +349,13 @@
     </entry>
     <entry file="file://$USER_HOME$/Virtualenv/psupr/Lib/site-packages/pandas/io/excel.py" />
     <entry file="file://$PROJECT_DIR$/restaurant.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-300">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day3/PCA_Restaurant.py" />
@@ -371,22 +370,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/PCA_Generic.py">
+    <entry file="file://$PROJECT_DIR$/Day3/LDA_Generic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="99" selection-start-line="99" selection-end-line="108" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
-            <element signature="e#144#163#0" expanded="true" />
+            <element signature="e#145#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/LDA_Generic.py">
+    <entry file="file://$PROJECT_DIR$/Day3/PCA_Generic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="1183">
+          <caret line="92" column="47" lean-forward="true" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
           <folding>
-            <element signature="e#145#163#0" expanded="true" />
+            <element signature="e#144#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
