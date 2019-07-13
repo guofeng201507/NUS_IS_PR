@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6138a710-3d4e-4760-8653-1b18cea39e45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3/PCA_Generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/PCA_Generic.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day3/LDA_Generic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="198">
+              <caret line="49" column="54" lean-forward="true" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
               <folding>
                 <element signature="e#145#163#0" expanded="true" />
               </folding>
@@ -24,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day3/PCA_Generic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+            <state relative-caret-position="330">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="e#144#163#0" expanded="true" />
               </folding>
@@ -36,23 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tmp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-              <folding>
-                <element signature="e#39#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+        <entry file="file://$USER_HOME$/Virtualenv/psupr/Lib/site-packages/pandas/core/generic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="82965">
+              <caret line="5580" column="21" selection-start-line="5580" selection-start-column="21" selection-end-line="5580" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -63,7 +52,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
-        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -71,7 +59,6 @@
     <findStrings>
       <find>method</find>
       <find>roc</find>
-      <find>restaurant_name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -82,16 +69,14 @@
       <list>
         <option value="$PROJECT_DIR$/Day3/D3_restaurant_PCA.ipynb" />
         <option value="$PROJECT_DIR$/Day3/PCA_Generic.py" />
-        <option value="$PROJECT_DIR$/temp.py" />
-        <option value="$PROJECT_DIR$/tmp.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="565" />
+    <option name="y" value="280" />
+    <option name="width" value="1755" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -99,23 +84,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="NUS_IS_PR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NUS_IS_PR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NUS_IS_PR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NUS_IS_PR" type="462c0819:PsiDirectoryNode" />
-              <item name="Day3" type="462c0819:PsiDirectoryNode" />
+              <item name="psupr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="psupr" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tmp">
+  <component name="RunManager" selected="Python.PCA_Generic">
     <configuration name="LDA_Generic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="psupr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,53 +219,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="psupr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="psupr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tmp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tmp" />
-        <item itemvalue="Python.temp" />
-        <item itemvalue="Python.LDA_Generic" />
         <item itemvalue="Python.PCA_Generic" />
+        <item itemvalue="Python.LDA_Generic" />
       </list>
     </recent_temporary>
   </component>
@@ -302,40 +239,38 @@
       <workItem from="1561188005316" duration="3194000" />
       <workItem from="1561793392785" duration="2621000" />
       <workItem from="1562398084515" duration="10430000" />
-      <workItem from="1562757348136" duration="8758000" />
-      <workItem from="1562773498569" duration="963000" />
-      <workItem from="1562774478179" duration="1803000" />
+      <workItem from="1562553672760" duration="8275000" />
+      <workItem from="1562981867626" duration="3861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48040000" />
+    <option name="totallyTimeSpent" value="35015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.14285715" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.21514745" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.22520107" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.3564464" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28854313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2707889" side_tool="true" weight="0.41928494" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Jupyter" order="11" sideWeight="0.4989339" weight="0.43987" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49840087" weight="0.30985916" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="13" sideWeight="0.7292111" visible="true" weight="0.5817985" />
+      <window_info anchor="bottom" id="Jupyter" order="11" sideWeight="0.49932975" weight="0.33663365" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2545969" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.39745402" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.82067513" weight="0.1609808" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.82067513" visible="true" weight="0.19101876" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -350,38 +285,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Day3/PCA_Generic.py</url>
-          <line>15</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day3/PCA_Generic.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day3/PCA_Generic.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day3/PCA_Generic.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/temp.py</url>
-          <line>12</line>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/D3_restaurant_PCA.ipynb</url>
+          <line>88</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/temp.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tmp.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -392,10 +302,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/NUS_IS_PR$temp.coverage" NAME="temp Coverage Results" MODIFIED="1562762102110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/psupr$PCA_Generic.coverage" NAME="PCA_Generic Coverage Results" MODIFIED="1562391494100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
-    <SUITE FILE_PATH="coverage/NUS_IS_PR$PCA_Generic.coverage" NAME="PCA_Generic Coverage Results" MODIFIED="1562572031680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day3" />
-    <SUITE FILE_PATH="coverage/NUS_IS_PR$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1562771955138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -422,20 +329,17 @@
     <entry file="file://$PROJECT_DIR$/D1diabetes-psupr-knn-logreg-NB.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Virtualenv/psupr/Lib/site-packages/sklearn/linear_model/logistic.py" />
-    <entry file="file://$PROJECT_DIR$/D1heart_disease-psupr-knn-logreg-NB.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Virtualenv/psupr/Lib/site-packages/pandas/io/excel.py" />
-    <entry file="file://$PROJECT_DIR$/Day3/PCA_Restaurant.py" />
-    <entry file="file://$PROJECT_DIR$/D2 diabetes-psupr-DT-NN-SVM.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Virtualenv/psupr/Lib/site-packages/pandas/core/reshape/reshape.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/excel.py">
+    <entry file="file://$USER_HOME$/Virtualenv/psupr/Lib/site-packages/sklearn/linear_model/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="391" column="27" lean-forward="true" selection-start-line="391" selection-start-column="27" selection-end-line="391" selection-end-column="27" />
+        <state relative-caret-position="21255">
+          <caret line="1443" column="59" selection-start-line="1443" selection-start-column="59" selection-end-line="1443" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Virtualenv/psupr/Lib/site-packages/pandas/io/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="392" selection-start-line="392" selection-end-line="392" />
         </state>
       </provider>
     </entry>
@@ -444,28 +348,39 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-952">
-          <caret line="1" column="100" lean-forward="true" selection-start-line="1" selection-start-column="100" selection-end-line="1" selection-end-column="100" />
+        <state relative-caret-position="-300">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3/PCA_Restaurant.py" />
+    <entry file="file://$PROJECT_DIR$/D2 diabetes-psupr-DT-NN-SVM.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Virtualenv/psupr/Lib/site-packages/pandas/core/reshape/reshape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="814" column="34" lean-forward="true" selection-start-line="814" selection-start-column="34" selection-end-line="814" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D1heart_disease-psupr-knn-logreg-NB.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Virtualenv/psupr/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82965">
+          <caret line="5580" column="21" selection-start-line="5580" selection-start-column="21" selection-end-line="5580" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/D3_restaurant_PCA.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day3/LDA_Generic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="198">
+          <caret line="49" column="54" lean-forward="true" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
           <folding>
             <element signature="e#145#163#0" expanded="true" />
           </folding>
@@ -474,27 +389,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day3/PCA_Generic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+        <state relative-caret-position="330">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="e#144#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
