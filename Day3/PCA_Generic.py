@@ -11,7 +11,9 @@ from sklearn.preprocessing import StandardScaler
 #data = pd.read_excel('CPI.xlsx',sheet_name = "CPI")
 #data = data.drop(['City'],axis=1) 
 
-data = pd.read_excel('.\LoanApplicant.xlsx',sheet_name = "LoanApplicant")
+# data = pd.read_excel('LoanApplicant.xlsx',sheet_name = "LoanApplicant")
+data = pd.read_excel('LoanApplicant_2.xlsx',sheet_name = "LoanApplicant")
+# data = pd.read_excel('LoanApplicant_reorder.xlsx',sheet_name = "LoanApplicant")
 
 features = list(data)
 colnames = np.transpose(features)
@@ -47,7 +49,8 @@ data_std = StandardScaler().fit_transform(data)
 
 # (6) Apply PCA. Get Eigenvctors, Eigenvalues
 # Loadings = Correlation coefficient betwn PC & feature 
-n_components = len(features)
+# n_components = len(features)
+n_components = 8
 pca = PCA(n_components).fit(data_std)
 
 # generate PC labels:
