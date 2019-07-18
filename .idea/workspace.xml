@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6138a710-3d4e-4760-8653-1b18cea39e45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/psupr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/psupr.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/D4_restaurant_PCA_Kmeans.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/D4_restaurant_PCA_Kmeans.ipynb" afterDir="false" />
     </list>
@@ -41,41 +39,6 @@
           <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/decomposition/pca.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="324" column="8" selection-start-line="324" selection-start-column="8" selection-end-line="324" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day3/PCA_Generic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="18" column="8" selection-start-line="18" selection-end-line="18" selection-end-column="8" />
-              <folding>
-                <element signature="e#144#163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D1heart_disease-psupr-knn-logreg-NB.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/frame.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="7948" column="4" selection-start-line="7948" selection-start-column="4" selection-end-line="7948" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -98,6 +61,8 @@
       <find>colnames</find>
       <find>nEigenvectors (Linear Coefficients)</find>
       <find>values</find>
+      <find>scale</find>
+      <find>import k</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,7 +90,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,15 +97,11 @@
               <item name="NUS_IS_PR" type="b2602c69:ProjectViewProjectNode" />
               <item name="NUS_IS_PR" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NUS_IS_PR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NUS_IS_PR" type="462c0819:PsiDirectoryNode" />
-              <item name="Day3" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,8 +109,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -226,6 +189,9 @@
       <module name="psupr" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -333,38 +299,38 @@
       <workItem from="1562981867626" duration="3861000" />
       <workItem from="1563288076976" duration="1240000" />
       <workItem from="1563293636075" duration="498000" />
-      <workItem from="1563363531831" duration="18176000" />
+      <workItem from="1563363531831" duration="18763000" />
+      <workItem from="1563449119595" duration="10416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67273000" />
+    <option name="totallyTimeSpent" value="78276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.14072494" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.14232409" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.22520107" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.12784399" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.4073673" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Jupyter" order="11" sideWeight="0.49932975" weight="0.40086675" />
+      <window_info anchor="bottom" id="Jupyter" order="11" sideWeight="0.49932975" weight="0.52437705" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.2881907" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.23943663" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.82067513" weight="0.3736674" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.82067513" visible="true" weight="0.18550107" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -394,23 +360,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>file://$PROJECT_DIR$/D4_restaurant_PCA_Kmeans.ipynb</url>
-          <line>148</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/D4_restaurant_PCA_Kmeans.ipynb</url>
-          <line>157</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/D4_restaurant_PCA_Kmeans.ipynb</url>
-          <line>84</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/D4_restaurant_PCA_Kmeans.ipynb</url>
-          <line>118</line>
+          <line>129</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/D4_restaurant_PCA_Kmeans.ipynb</url>
+          <line>89</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/D4_restaurant_PCA_Kmeans.ipynb</url>
+          <line>122</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -472,23 +433,6 @@
     <entry file="file://$PROJECT_DIR$/lending-club-risk-analysis-and-metrics.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/LDA_Generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding>
-            <element signature="e#145#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restaurant.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -506,26 +450,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/frame.py">
+    <entry file="file://$PROJECT_DIR$/D3_restaurant_PCA.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3/LDA_Generic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="7948" column="4" selection-start-line="7948" selection-start-column="4" selection-end-line="7948" selection-end-column="4" />
+        <state relative-caret-position="425">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="e#145#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/decomposition/pca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5270">
+          <caret line="324" column="8" selection-start-line="324" selection-start-column="8" selection-end-line="324" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3/PCA_Generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="8" selection-start-line="18" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#144#163#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/D1heart_disease-psupr-knn-logreg-NB.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/D3_restaurant_PCA.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/PCA_Generic.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/cluster/k_means_.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="18" column="8" selection-start-line="18" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="232">
+          <caret line="912" column="8" selection-start-line="912" selection-start-column="8" selection-end-line="912" selection-end-column="8" />
           <folding>
-            <element signature="e#144#163#0" expanded="true" />
+            <element signature="e#8#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="2837" column="4" selection-start-line="2837" selection-start-column="4" selection-end-line="2837" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -536,10 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/decomposition/pca.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="324" column="8" selection-start-line="324" selection-start-column="8" selection-end-line="324" selection-end-column="8" />
+        <state relative-caret-position="209">
+          <caret line="377" column="53" selection-start-line="377" selection-start-column="46" selection-end-line="377" selection-end-column="53" />
         </state>
       </provider>
     </entry>
