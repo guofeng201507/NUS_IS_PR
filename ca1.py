@@ -52,7 +52,7 @@ print(df[null_columns].isnull().sum())
 y = df['TARGET']
 X = df.drop('TARGET', axis=1)
 
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, cross_val_score
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=1 / 4, random_state=42)
 # if stratify as true, train set is (7164, 70), test set is (5379, 70)
@@ -61,6 +61,7 @@ print(X_train.shape)
 
 print(X_test.shape)
 
+#%%
 from sklearn.preprocessing import StandardScaler
 
 scaler = StandardScaler()
@@ -188,3 +189,13 @@ mlp.fit(X_train, y_train)
 
 print("Training set score: {:.3f}".format(mlp.score(X_train, y_train)))
 print("Test set score: {:.3f}".format(mlp.score(X_test, y_test)))
+
+#%%
+#cross validation score
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+
+from sklearn.pipeline import make_pipeline
+logreg = make_pipeline(StandardScaler(), LogisticRegression(C=6))
+print(cross_val_score(logreg, X, y, cv=10))
+
