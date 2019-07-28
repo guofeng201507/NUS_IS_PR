@@ -109,7 +109,7 @@ from sklearn.metrics import confusion_matrix
 
 # Initiating the Gaussian Classifier
 mod = GaussianNB()
-# %%
+
 # Training your model
 mod.fit(X_train, y_train)
 
@@ -119,9 +119,9 @@ print("Test set score: {:.3f}".format(mod.score(X_test, y_test)))
 # %%
 # Predicting Outcome
 predicted = mod.predict(X_test)
-# %%
+
 mod.score(X_test, y_test)
-# %%
+
 # Confusion Matrix
 y_pred = mod.predict(X_test)
 print(confusion_matrix(y_test, y_pred))
