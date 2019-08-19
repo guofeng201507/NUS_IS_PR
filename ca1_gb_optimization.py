@@ -1,7 +1,7 @@
 # %% md
 # CA 1 Cleansing
 
-# %%
+#%%
 import pandas as pd
 
 pd.set_option('display.max_columns', 500)
@@ -9,7 +9,6 @@ pd.set_option('display.max_columns', 500)
 df = pd.read_csv(r'D:\NUS_TERM2_CA1\application_train.csv')
 df.head(10)
 
-# %%
 df.dropna(thresh=len(df) * 0.7, axis=1, inplace=True)
 
 df.drop(['SK_ID_CURR'], axis=1, inplace=True)
@@ -75,7 +74,6 @@ df.drop(['DAYS_BIRTH', 'DAYS_EMPLOYED', 'DAYS_REGISTRATION', 'DAYS_ID_PUBLISH', 
 
 df.shape
 
-# %%
 
 y = df['TARGET']
 X = df.drop('TARGET', axis=1)
@@ -85,7 +83,7 @@ from sklearn.model_selection import train_test_split, cross_val_score
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=1 / 4, random_state=42)
 print(X_train.shape)
 print(X_test.shape)
-#%%
+
 from sklearn.preprocessing import StandardScaler
 
 scaler = StandardScaler()
@@ -94,7 +92,6 @@ scaler.fit(X_train)
 X_train = scaler.transform(X_train)
 X_test = scaler.transform(X_test)
 
-#%%
 from sklearn.preprocessing import Normalizer
 
 normalizer = Normalizer()
@@ -103,7 +100,6 @@ normalizer.fit(X_train)
 X_train = normalizer.transform(X_train)
 X_test = normalizer.transform(X_test)
 
-#%%
 from imblearn.over_sampling import RandomOverSampler, SMOTE
 from imblearn.under_sampling import RandomUnderSampler
 
@@ -128,14 +124,13 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import GradientBoostingClassifier
 
 parameters = {
-    "loss":["deviance"],
-    # "learning_rate": [0.01, 0.025, 0.05, 0.075, 0.1, 0.15, 0.2],
+    # "loss":["deviance"],
+    "learning_rate": [0.1, 0.15, 0.2, 0.3]
     # "min_samples_split": np.linspace(0.1, 0.5, 12),
     # "min_samples_leaf": np.linspace(0.1, 0.5, 12),
-    # "max_depth":[3,5,8]
     }
 
-clf = GridSearchCV(GradientBoostingClassifier(), parameters, cv=10, n_jobs=-1)
+clf = GridSearchCV(GradientBoostingClassifier(), parameters)
 
 clf.fit(X_train, y_train)
 print(clf.score(X_train, y_train))
