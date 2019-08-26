@@ -110,15 +110,43 @@ modelname = 'wks3_2_2'
 
 
 def createModel():
+    # inputs = Input(shape=(trDat.shape[1], length))
+    # y = Conv1D(32, 5, activation='relu')(inputs)
+    # y = MaxPooling1D(2)(y)
+    # y = Conv1D(48, 5, activation='relu')(y)
+    # y = Dropout(0.2)(y)
+    # y = Conv1D(48, 5, activation='relu')(y)
+    # y = MaxPooling1D(2)(y)
+    # y = Conv1D(64, 5, activation='relu')(y)
+    # y = Dropout(0.2)(y)
+    # y = LSTM(8,
+    #          return_sequences=True,
+    #          dropout=0.5,
+    #          recurrent_dropout=0.5)(y)
+    # y = LSTM(4,
+    #          return_sequences=True,
+    #          dropout=0.5,
+    #          recurrent_dropout=0.5)(y)
+    # y = LSTM(2)(y)
+    # y = Dense(1, activation='sigmoid')(y)
+    # model = Model(inputs=inputs, outputs=y)
+    # model.compile(loss='binary_crossentropy',
+    #               optimizer='adam',
+    #               metrics=['accuracy'])
+    # return model
     inputs = Input(shape=(trDat.shape[1], length))
     y = Conv1D(32, 5, activation='relu')(inputs)
+    y = Dropout(0.25)(y)
+    y = Conv1D(32, 5, activation='relu')(y)
     y = MaxPooling1D(2)(y)
     y = Conv1D(48, 5, activation='relu')(y)
-    y = Dropout(0.2)(y)
+    y = Dropout(0.5)(y)
     y = Conv1D(48, 5, activation='relu')(y)
     y = MaxPooling1D(2)(y)
     y = Conv1D(64, 5, activation='relu')(y)
-    y = Dropout(0.2)(y)
+    y = Dropout(0.5)(y)
+    y = Conv1D(64, 5, activation='relu')(y)
+    y = MaxPooling1D(2)(y)
     y = LSTM(8,
              return_sequences=True,
              dropout=0.5,
@@ -133,8 +161,8 @@ def createModel():
     model.compile(loss='binary_crossentropy',
                   optimizer='adam',
                   metrics=['accuracy'])
-    return model
     # Setup the models
+    return model
 
 
 model = createModel()  # This is meant for training
@@ -167,8 +195,8 @@ callbacks_list = [checkpoint, csv_logger]
 model.fit(trDat,
           trLbl,
           validation_data=(tsDat, tsLbl),
-          epochs=30,
-          batch_size=256,
+          epochs=40,
+          batch_size=128,
           shuffle=True,
           callbacks=callbacks_list)
 
