@@ -144,13 +144,17 @@ def resBlkV1(inputs,
 def createResNetV1(inputShape=(32, 32, 3),
                    numClasses=10):
     inputs = Input(shape=inputShape)
-    v = resLyr(inputs,
-               lyrName='Inpt')
+    v = resLyr(inputs, lyrName='Inpt')
     v = resBlkV1(inputs=v,
                  numFilters=16,
                  numBlocks=3,
                  downsampleOnFirst=False,
                  names='Stg1')
+    v = resBlkV1(inputs=v,
+                 numFilters=16,
+                 numBlocks=3,
+                 downsampleOnFirst=True,
+                 names='Stg1_2')
     v = resBlkV1(inputs=v,
                  numFilters=32,
                  numBlocks=3,
@@ -161,7 +165,7 @@ def createResNetV1(inputShape=(32, 32, 3),
                  numBlocks=3,
                  downsampleOnFirst=True,
                  names='Stg3')
-    v = AveragePooling2D(pool_size=8,
+    v = AveragePooling2D(pool_size=4,
                          name='AvgPool')(v)
     v = Flatten()(v)
     outputs = Dense(numClasses,
@@ -232,7 +236,7 @@ datagen = ImageDataGenerator(width_shift_range=0.1,
                              horizontal_flip=True,
                              vertical_flip=False)
 
-model.fit_generator(datagen.flow(trDat, trLbl, batch_size=32),
+model.fit_generator(datagen.flow(trDat, trLbl, batch_size=64),
                     validation_data=(tsDat, tsLbl),
                     epochs=200,
                     verbose=1,
