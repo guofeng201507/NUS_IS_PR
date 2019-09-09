@@ -10,3 +10,5 @@ Select the .py file, "Edit Configuration" -> Environment variables, put in the p
 
 PYTHONUNBUFFERED=1;Path=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin
 
+CA2
+https://towardsdatascience.com/transfer-learning-for-image-classification-using-keras-c47ccf09c8c8
