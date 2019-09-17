@@ -11,7 +11,9 @@ base_model.summary()
 
 from keras.preprocessing.image import ImageDataGenerator
 
+# TRAIN_DIR = r"D:\NUS_TERM2_CA2\Train"
 TRAIN_DIR = r"C:\Users\guofe\Downloads\CA2_Data"
+TEST_DIR = r"D:\NUS_TERM2_CA2\Test"
 HEIGHT = 300
 WIDTH = 300
 BATCH_SIZE = 8
@@ -51,8 +53,8 @@ def build_finetune_model(base_model, dropout, fc_layers, num_classes):
 
 
 class_list = ["food", "landmark", "person"]
-FC_LAYERS = [512, 512]
-dropout = 0.5
+FC_LAYERS = [128, 128]
+dropout = 0.3
 
 finetune_model = build_finetune_model(base_model,
                                       dropout=dropout,
@@ -87,10 +89,9 @@ def plot_training(history):
 
 NUM_EPOCHS = 10
 BATCH_SIZE = 8
-num_train_images = 10000
+num_train_images = 1000
 
-adam = Adam(lr=0.00001)
-finetune_model.compile(adam, loss='categorical_crossentropy', metrics=['accuracy'])
+finetune_model.compile(Adam(lr=0.00001), loss='categorical_crossentropy', metrics=['accuracy'])
 
 filepath = "./checkpoints/" + "ResNet50" + "_model_weights.h5"
 checkpoint = ModelCheckpoint(filepath, monitor=["acc"], verbose=1, mode='max')
