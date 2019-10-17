@@ -107,10 +107,10 @@ for sub in sub_list:
         sub_df_new.loc[0:tmp['tread_flat_walk_end'], 'label'] = 'tread_flat_walk'
         sub_df_new.loc[tmp['tread_flat_walk_end']: tmp['tread_flat_run_end'],
         'label'] = 'tread_flat_run'
-        sub_df_new.loc[tmp['tread_flat_run_end']: tmp['tread_slope_walk_start'], 'label'] = 'NA'
+        sub_df_new.loc[tmp['tread_flat_run_end']: tmp['tread_slope_walk_start'], 'label'] = 'rest'
         sub_df_new.loc[tmp['tread_slope_walk_start']: tmp['tread_slope_walk_end'],
         'label'] = 'tread_slope_walk'
-        sub_df_new.loc[tmp['tread_slope_walk_end']: tmp['indoor_flat_walk_start'], 'label'] = 'NA'
+        sub_df_new.loc[tmp['tread_slope_walk_end']: tmp['indoor_flat_walk_start'], 'label'] = 'rest'
         sub_df_new.loc[tmp['indoor_flat_walk_start']: tmp['indoor_flat_walk_end'],
         'label'] = 'indoor_flat_walk'
         sub_df_new.loc[tmp['indoor_flat_walk_end']: tmp['indoor_flat_run_end'],
