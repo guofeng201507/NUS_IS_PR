@@ -3,10 +3,16 @@ import os
 import pandas as pd
 
 # Set data folder path
+import pywt
+
+# import pywt.data
+
 DATA_FOLDER = r'D:/NUS_TERM2_CA3/MAREA_dataset'
 
 ACTIVITY_FOLDER = os.path.join(DATA_FOLDER, 'Activity Timings')
 SUBJECT_FOLDER = os.path.join(DATA_FOLDER, 'Subject_Data_txt_format')
+PROCESSED_FOLDER = os.path.join(DATA_FOLDER, 'Processed_data')
+
 
 # Define Activity Labels
 indoor_label = ['tread_flat_walk_start',
@@ -42,7 +48,6 @@ sub_list.remove('Sub4')
 from scipy import sparse
 from scipy.sparse.linalg import spsolve
 import numpy as np
-import pywt
 
 
 def alsbase(y, lam, p, niter=10):
@@ -117,4 +122,5 @@ for sub in sub_list:
         'label'] = 'indoor_flat_run'
 
     print(sub_df_new)
-    sub_df_new.to_csv(sub + '_processed.csv')
+    sub_df_new.to_csv(os.path.join(PROCESSED_FOLDER, sub + '_' + 'processed.csv'))
+    # sub_df_new.to_csv(sub + '_processed.csv')
