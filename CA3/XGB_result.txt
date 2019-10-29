@@ -1,0 +1,32 @@
+count               203760
+unique                   6
+top       tread_slope_walk
+freq                 58539
+Name: label, dtype: object
+Option 2: xgboost
+#Option 2: xgboost
+119.5950117111206
+XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0,
+              learning_rate=0.1, max_delta_step=0, max_depth=3,
+              min_child_weight=1, missing=None, n_estimators=100, n_jobs=1,
+              nthread=None, objective='multi:softprob', random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+              silent=None, subsample=1, verbosity=1)
+[[ 5128    16     5   876   324    68]
+ [    7   425    14     8  1389  3824]
+ [   22    34 13086    16   192  1572]
+ [  859    10    12  6175   377    40]
+ [  104   151   194    77  8851  4504]
+ [    0    95   133     2   945 18386]]
+                  precision    recall  f1-score   support
+ indoor_flat_run       0.84      0.80      0.82      6417
+indoor_flat_walk       0.58      0.07      0.13      5667
+            rest       0.97      0.88      0.92     14922
+  tread_flat_run       0.86      0.83      0.84      7473
+ tread_flat_walk       0.73      0.64      0.68     13881
+tread_slope_walk       0.65      0.94      0.77     19561
+        accuracy                           0.77     67921
+       macro avg       0.77      0.69      0.69     67921
+    weighted avg       0.77      0.77      0.74     67921
+Accuracy= 0.7663461963163086

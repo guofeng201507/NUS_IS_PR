@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
@@ -6,11 +7,14 @@ pd.set_option('display.width', 1000)
 sub_list = ["Sub" + str(i) for i in range(2, 21)]
 sub_list.remove('Sub4')
 
-full_df = pd.read_csv('Sub1_processed.csv')
+DATA_FOLDER = r'D:/NUS_TERM2_CA3/MAREA_dataset'
+PROCESSED_FOLDER = os.path.join(DATA_FOLDER, 'Processed_data')
+
+full_df = pd.read_csv(os.path.join(PROCESSED_FOLDER, 'Sub1_processed.csv'))
 full_df = full_df.drop(full_df.columns[[0]], axis=1)
 
 for sub in sub_list:
-    tmp_df = pd.read_csv(sub + '_' + 'processed.csv')
+    tmp_df = pd.read_csv(os.path.join(PROCESSED_FOLDER, sub + '_processed.csv'))
     tmp_df = tmp_df.drop(tmp_df.columns[[0]], axis=1)
 
     full_df.append(tmp_df)
@@ -20,7 +24,7 @@ print(full_df.head())
 y = full_df['label']
 X = full_df.drop('label', axis=1)
 
-print(X.corr())
+# print(X.corr())
 
 from sklearn.model_selection import train_test_split, cross_val_score
 
@@ -66,27 +70,3 @@ plt.plot([0, 1], [0, 1], 'k--')
 plt.legend(loc=4)
 plt.show()
 
-
-#------------------------------
-#https://towardsdatascience.com/recurrent-neural-networks-by-example-in-python-ffd204f99470
-
-from keras.models import Sequential
-from keras.layers import LSTM, Dense, Dropout, Masking, Embedding
-
-model = Sequential()
-# Recurrent layer
-model.add(LSTM(64, return_sequences=False,
-               dropout=0.1, recurrent_dropout=0.1))
-
-# Fully connected layer
-model.add(Dense(64, activation='relu'))
-
-# Dropout for regularization
-model.add(Dropout(0.5))
-
-# Output layer
-model.add(Dense(num_words, activation='softmax'))
-
-# Compile the model
-model.compile(
-    optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
