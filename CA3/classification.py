@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import matplotlib.pyplot as plt
 
 pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
@@ -9,15 +10,30 @@ sub_list.remove('Sub4')
 
 DATA_FOLDER = r'D:/NUS_TERM2_CA3/MAREA_dataset'
 PROCESSED_FOLDER = os.path.join(DATA_FOLDER, 'Processed_data')
+SUBJECT_FOLDER = os.path.join(DATA_FOLDER, 'Subject Data_txt format')
 
 full_df = pd.read_csv(os.path.join(PROCESSED_FOLDER, 'Sub1_processed.csv'))
 full_df = full_df.drop(full_df.columns[[0]], axis=1)
 
-for sub in sub_list:
-    tmp_df = pd.read_csv(os.path.join(PROCESSED_FOLDER, sub + '_processed.csv'))
-    tmp_df = tmp_df.drop(tmp_df.columns[[0]], axis=1)
+lf_df = pd.read_csv(os.path.join(SUBJECT_FOLDER, 'Sub1_LF.txt'))
 
-    full_df.append(tmp_df)
+print(lf_df.head())
+
+plt.plot(lf_df['accX'])
+plt.plot(lf_df['accY'])
+plt.plot(lf_df['accZ'])
+plt.title('Sub1')
+plt.ylabel('acc')
+plt.xlabel('time')
+plt.legend(['accX', 'accY','accZ'], loc='upper left')
+plt.savefig('sub1', dpi=300)
+plt.show()
+
+# for sub in sub_list:
+#     tmp_df = pd.read_csv(os.path.join(PROCESSED_FOLDER, sub + '_processed.csv'))
+#     tmp_df = tmp_df.drop(tmp_df.columns[[0]], axis=1)
+#
+#     full_df.append(tmp_df)
 
 print(full_df.head())
 
@@ -61,12 +77,4 @@ import matplotlib.pyplot as plt
 
 print("Accuracy=", metrics.accuracy_score(y_test, y_pred))
 
-y_pred_proba = model.predict_proba(X_test)[::, 1]
-fpr, tpr, _ = metrics.roc_curve(y_test, y_pred_proba)
-auc = metrics.roc_auc_score(y_test, y_pred_proba)
-
-plt.plot(fpr, tpr, label="auc=xgboost" + str(auc))
-plt.plot([0, 1], [0, 1], 'k--')
-plt.legend(loc=4)
-plt.show()
 
